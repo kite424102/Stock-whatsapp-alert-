@@ -3,5 +3,6 @@ services:
     name: stock-whatsapp-alert
     env: python
     buildCommand: "pip install -r requirements.txt"
-    startCommand: "python app/main.py"
+    startCommand: "python main.py"
+
 
